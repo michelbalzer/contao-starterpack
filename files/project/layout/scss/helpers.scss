@@ -38,7 +38,7 @@
 
 // Pseudo mixin from http://engageinteractive.co.uk/blog/top-10-scss-mixins
 @mixin pseudo($display: block, $pos: absolute, $content: ''){
-    content: $content;
-    display: $display;
-    position: $pos;
+  content: $content;
+  display: $display;
+  position: $pos;
 }
