@@ -1,0 +1,7 @@
+nav,
+nav ul,
+nav li,
+nav li > :first-child {
+  display: block;
+  list-style-type: none;
+}
