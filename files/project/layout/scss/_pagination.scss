@@ -1,0 +1,30 @@
+.pagination {
+  
+  p {
+    float: right;
+  }
+  
+  ul {
+    float: left;
+  }
+  
+  ul li {
+    display: inline-block;
+  }
+  
+  li > :first-child {
+    display: block;
+  }
+  
+  li {
+  
+    .previous {
+    }
+    
+    .next {
+    }
+    
+    .current {
+    } 
+  }
+}
