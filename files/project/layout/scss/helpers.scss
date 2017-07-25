@@ -42,3 +42,11 @@
   display: $display;
   position: $pos;
 }
+
+// truncate mixin from http://engageinteractive.co.uk/blog/top-10-scss-mixins
+@mixin truncate($truncation-boundary) {
+  max-width: $truncation-boundary;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
