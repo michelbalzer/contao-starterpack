@@ -1,0 +1,13 @@
+<?php
+  // Add a modernizr file
+  $GLOBALS['TL_JAVASCRIPT'][] = $GLOBALS['TL_CONFIG']['uploadPath']
+      .'/layout/scripts/modernizr.min.js|static';
+  
+  // Add priority-nav.js
+  $GLOBALS['TL_JAVASCRIPT'][] = $GLOBALS['TL_CONFIG']['uploadPath']
+      .'/layout/scripts/priority-nav.js|static';
+      
+  // Add custom scripts
+  $GLOBALS['TL_JAVASCRIPT'][] = $GLOBALS['TL_CONFIG']['uploadPath']
+      .'/layout/scripts/main.js|static';
+?>
